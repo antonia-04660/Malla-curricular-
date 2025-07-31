@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Curricular Interactiva</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    .ramo { display: inline-block; width: 120px; height: 80px; margin: 10px; background: #4CAF50; color: white; padding: 10px; border-radius: 8px; cursor: pointer; }
+    .ramo:hover { background: #388E3C; }
+  </style>
+</head>
+<body>
+  <h1>Mi Malla Curricular</h1>
+  <div class="ramo" onclick="alert('Detalle del ramo 1')">Ramo 1</div>
+  <div class="ramo" onclick="alert('Detalle del ramo 2')">Ramo 2</div>
+  <div class="ramo" onclick="alert('Detalle del ramo 3')">Ramo 3</div>
+  <p>Más ramos aquí...</p>
+</body>
+</html>
